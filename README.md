@@ -14,7 +14,7 @@ Usage:
 ```yaml
 - name: Login to ECR
   id: ecr
-  uses: jwalton/gh-ecr-login@v1
+  uses: rahulrkr08/gh-aws-deploy@v1
   with:
     AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
     AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
