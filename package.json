@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jwalton/gh-aws-deploy.git"
+    "url": "git+https://github.com/rahulrkr08/gh-aws-deploy.git"
   },
   "keywords": [
     "github",
@@ -21,9 +21,9 @@
   "author": "Rahul Radhakrishnan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jwalton/gh-aws-deploy/issues"
+    "url": "https://github.com/rahulrkr08/gh-aws-deploy/issues"
   },
-  "homepage": "https://github.com/jwalton/gh-aws-deploy#readme",
+  "homepage": "https://github.com/rahulrkr08/gh-aws-deploy#readme",
   "dependencies": {
     "@actions/core": "^1.1.0"
   }
