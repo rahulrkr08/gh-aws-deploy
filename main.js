@@ -1,9 +1,9 @@
 const { execSync } = require('child_process');
 const core = require('@actions/core');
 
-const AWS_ACCESS_KEY_ID = core.getInput('access-key-id', { required: true });
-const AWS_SECRET_ACCESS_KEY = core.getInput('secret-access-key', { required: true });
-const awsRegion = core.getInput('region') || process.env.AWS_DEFAULT_REGION || 'us-east-1';
+const AWS_ACCESS_KEY_ID = core.getInput('AWS_ACCESS_KEY_ID', { required: true });
+const AWS_SECRET_ACCESS_KEY = core.getInput('AWS_SECRET_ACCESS_KEY', { required: true });
+const awsRegion = core.getInput('AWS_REGION') || process.env.AWS_DEFAULT_REGION || 'us-east-1';
 
 function run(cmd, options = {}) {
     if (!options.hide) {

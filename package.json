@@ -1,14 +1,14 @@
 {
-  "name": "gh-ecr-login",
+  "name": "gh-aws-deploy",
   "version": "1.0.0",
-  "description": "Publish docker images to Amazon Elastic Container Registry (ECR).",
+  "description": "Publish docker images to AWS Elastic Container Registry (ECR).",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jwalton/gh-ecr-login.git"
+    "url": "git+https://github.com/jwalton/gh-aws-deploy.git"
   },
   "keywords": [
     "github",
@@ -18,12 +18,12 @@
     "aws",
     "amazon"
   ],
-  "author": "Jason Walton",
+  "author": "Rahul Radhakrishnan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jwalton/gh-ecr-login/issues"
+    "url": "https://github.com/jwalton/gh-aws-deploy/issues"
   },
-  "homepage": "https://github.com/jwalton/gh-ecr-login#readme",
+  "homepage": "https://github.com/jwalton/gh-aws-deploy#readme",
   "dependencies": {
     "@actions/core": "^1.1.0"
   }
