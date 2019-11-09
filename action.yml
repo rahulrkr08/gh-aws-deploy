@@ -1,4 +1,4 @@
-name: Login to ECR
+name: Deploy to ECR
 author: jwalton
 description: Login to Amazon ECR.
 inputs:
